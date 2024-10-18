@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 :root {
-    --bg-color: #090901;
+    --bg-color: #09090b;
     --surface-color: #18181b;
     --text-color-primary: #f4f4f5;
     --text-color-secondary: #a1a1aa;
@@ -31,6 +31,10 @@
     --fs-lg: 1.25rem;
     --fs-xl: 1.5rem;
     --fs-2xl: 2.5rem;
+
+    --py-base: 1rem;
+    --py-lg: 1.5rem;
+    --py-xl: 3rem;
 
     --px-lg: 1.5rem;
 }
@@ -66,7 +70,7 @@ h3 {
     font-size: var(--fs-lg);
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
@@ -80,5 +84,11 @@ ul[role="list"] {
         --fs-lg: 2rem;
         --fs-xl: 3rem;
         --fs-2xl: 4rem;
+
+        --py-base: 11.5rem;
+        --py-lg: 2.5rem;
+        --py-xl: 5rem;
+
+        --px-lg: 2rem;
     }
 }
